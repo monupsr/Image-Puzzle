@@ -178,7 +178,8 @@ window.onload = function() {
       source.start(0);
       source.loop = true;
       bind.load();
-    }, function() { console.log("music error: ??? ") });
+    }, function() { console.log("music error: ??? ")
+    bind.load();});
   };
   request.send();
 };
